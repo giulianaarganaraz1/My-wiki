@@ -1,0 +1,41 @@
+class Nota:
+    def __init__(self,nombre):
+        self.nombre = nombre
+        self.fuente = []
+        #self.proyecto_asociado=
+
+        print(self.fuente)
+
+
+    def insertar_Fuente(self,fuenteNueva):
+        self.fuente.append(fuenteNueva)
+        print(fuenteNueva)
+
+
+    def __str__(self):
+        return f"Nota: {self.nombre}"
+
+
+
+class Proyecto:
+    def __init__(self,name):
+        self.name=name
+        #self.nota_asociada= nota_asociada
+        pass
+
+    #def Crear_nota(self, nombre):
+      #  self.Nota_nueva = Nota(nombre)
+
+
+class Bibloteca:
+    def __init__(self):
+        pass
+
+
+nota2 = Nota("miocardio")
+
+print(nota2)
+
+  
+
+  
