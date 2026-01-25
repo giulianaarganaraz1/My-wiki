@@ -1,5 +1,5 @@
-class Nota:
-    def __init__(self,nombre):
+class Nota: 
+    def __init__(self,nombre): 
         self.nombre = nombre
         self.fuente = []
         #self.proyecto_asociado=
@@ -7,7 +7,7 @@ class Nota:
         print(self.fuente)
 
 
-    def insertar_Fuente(self,fuenteNueva):
+    def insertar_Fuente(self,fuenteNueva):#se inserta una fuente en la nota
         self.fuente.append(fuenteNueva)
         print(fuenteNueva)
 
