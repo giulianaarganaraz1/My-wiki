@@ -13,3 +13,4 @@ class Note:
 
 nota1 = Note("mi vida" , "la vida es bonita ls verdas es que es demasiado introspectiva tener que ver todo de una manera estratewgica y sensible ")
 print(nota1)
+
