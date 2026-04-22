@@ -1,7 +1,6 @@
 from fastapi import FastAPI
+from app.routes import notes
 
 app = FastAPI()
 
-@app.get("/hi")
-def greet():
-    return "Hello? World?"
+app.include_router(notes.router)
